@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/zapasy"
+        android:title="Zápasy"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/tabulka"
+        android:title="Tabulka"
+        android:icon="@drawable/table"/>
+    <item
+        android:id="@+id/strikers"
+        android:title="Střelci"
+        android:icon="@drawable/strikers"/>
+</menu>

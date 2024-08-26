@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Turnajová aplikace</string>
+    <string name="dialogTitle">Přejete si ukončit turnaj?</string>
+    <string name="dialogMessage">Odsouhlasením ukončíte turnaj a smažete všechny záznamy.</string>
+</resources>

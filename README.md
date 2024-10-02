@@ -5,10 +5,15 @@ This is an Android application built using Kotlin to manage tournaments. Users c
 Features
 
 •	Team Management: Users can create new teams and delete existing ones.
+
 •	Match Management: Users can update match results and view upcoming or past matches.
+
 •	Score Tracking: Results of matches are stored, and scores are displayed in real-time.
+
 •	Standings Table: A dynamically updated table showing team rankings based on wins, losses, and goals scored/received.
+
 •	Top Scorers: Displays the list of players and the number of goals they've scored.
+
 •	Navigation: Users can easily navigate between the "Matches", "Standings", and "Top Scorers" sections using a bottom navigation bar.
 
 Screenshots

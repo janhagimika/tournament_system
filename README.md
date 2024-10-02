@@ -1,7 +1,9 @@
 # tournament_system
 Tournament Management App(school project)
+
 This is an Android application built using Kotlin to manage tournaments. Users can create teams, update match results, view standings, and track individual player statistics, all within an intuitive and simple user interface.
 Features
+
 •	Team Management: Users can create new teams and delete existing ones.
 •	Match Management: Users can update match results and view upcoming or past matches.
 •	Score Tracking: Results of matches are stored, and scores are displayed in real-time.

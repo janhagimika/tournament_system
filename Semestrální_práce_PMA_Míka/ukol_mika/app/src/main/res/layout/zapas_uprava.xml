@@ -89,7 +89,7 @@
         android:id="@+id/addStrikerHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Přidat"
+        android:text="Uložit"
         app:layout_constraintBottom_toTopOf="@+id/tvdomacistrelci"
         app:layout_constraintTop_toBottomOf="@+id/etgoalshomestriker"
         app:layout_constraintVertical_bias="0.3"
@@ -100,7 +100,7 @@
         android:id="@+id/addStrikerHost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Přidat"
+        android:text="Uložit"
         app:layout_constraintBottom_toTopOf="@+id/tvhostestrelci"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
@@ -114,7 +114,7 @@
         android:layout_width="116dp"
         android:layout_height="44dp"
         android:ems="10"
-        android:hint="Střelec"
+        android:hint="Hráč"
         android:inputType="textPersonName"
         android:text=""
         android:textAlignment="center"
@@ -129,7 +129,7 @@
         android:layout_width="116dp"
         android:layout_height="44dp"
         android:ems="10"
-        android:hint="Střelec"
+        android:hint="Hráč"
         android:inputType="textPersonName"
         android:text=""
         android:textAlignment="center"
@@ -196,27 +196,14 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnulozitstrelce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Uložit střelce"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdomacistrelci"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <Button
         android:id="@+id/btnsmazat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Smazat střelce"
+        android:layout_marginEnd="72dp"
+        android:text="Smazat všechny střelce"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toEndOf="@+id/btnulozitstrelce"
         app:layout_constraintTop_toBottomOf="@+id/tvhostestrelci"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

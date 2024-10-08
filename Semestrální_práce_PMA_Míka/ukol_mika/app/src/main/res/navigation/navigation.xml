@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav_graph">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.ukol_mika.MainActivity"
+        android:label="Main Activity" >
+        <action
+            android:id="@+id/from_main_to_tournament"
+            app:destination="@id/prvniPohled"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </activity>
+
+    <activity
+        android:id="@+id/upravaZapasu"
+        android:name="com.example.ukol_mika.UpravaZapasu"
+        android:label="Uprava zapasu" >
+        <action
+            android:id="@+id/from_uprava_to_main"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/from_uprava_to_prvni"
+            app:destination="@id/prvniPohled" />
+    </activity>
+
+    <activity
+        android:id="@+id/prvniPohled"
+        android:name="com.example.ukol_mika.PrvniPohled"
+        android:label="Prvni pohled">
+        <action
+            android:id="@+id/from_prvni_to_uprava"
+            app:destination="@id/upravaZapasu" />
+        <action
+            android:id="@+id/from_prvni_to_druhy"
+            app:destination="@id/druhyPohled" />
+        <action
+            android:id="@+id/from_prvni_to_treti"
+            app:destination="@id/tretiPohled" />
+        <action
+            android:id="@+id/from_prvni_to_main"
+            app:destination="@id/mainActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/druhyPohled"
+        android:name="com.example.ukol_mika.DruhyPohled"
+        android:label="Druhy pohled" >
+        <action
+            android:id="@+id/from_druhy_to_prvni"
+            app:destination="@id/prvniPohled" />
+        <action
+            android:id="@+id/from_druhy_to_treti"
+            app:destination="@id/tretiPohled" />
+        <action
+            android:id="@+id/from_druhy_to_main"
+            app:destination="@id/mainActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/tretiPohled"
+        android:name="com.example.ukol_mika.TretiPohled"
+        android:label="Treti pohled" >
+        <action
+            android:id="@+id/from_treti_to_prvni"
+            app:destination="@id/prvniPohled" />
+        <action
+            android:id="@+id/from_treti_to_druhy"
+            app:destination="@id/druhyPohled" />
+        <action
+            android:id="@+id/from_treti_to_main"
+            app:destination="@id/mainActivity" />
+    </activity>
+
+</navigation>
